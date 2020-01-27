@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="video-fond">
+      <video controls autoplay="true">
+        <!-- Source vidéo par défaut -->
+        <source
+          type="video/mp4"
+          src="./mp4/tueras.mp4"
+          media="(orientation: landscape)"
+        />
+
+        <!-- Utilisez des sources vidéo carrées pour économiser la bande passante -->
+        <source
+          type="video/mp4"
+          src="./mp4/tueras.mp4"
+          media="(orientation: portrait)"
+        />
+      </video>
+      <!-- Ici les boutons ou les métadonnées -->
+    </div>
+  </body>
+</html>
